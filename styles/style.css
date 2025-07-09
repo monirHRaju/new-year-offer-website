@@ -227,7 +227,53 @@ header{
     font-weight: 800;
 }
 
+/* Newsletter section */
+.newsletter{
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px;
+}
+.newsletter-content{
+    text-align: center;
+}
+.newsletter-content h3{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 22px 0;
+    color: #070211;
+}
+.newsletter-content p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 48px 0;
+    color: #756b8a;
+}
 
+/* subscribe form design from chat GPT */
+
+    .subscribe-form input[type="email"] {
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      outline: none;
+      width: 250px;
+      border-radius: 50px 0 0 50px;
+    }
+
+    .subscribe-form button {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 0 50px 50px 0;
+      transition: background 0.3s;
+    }
+
+    .subscribe-form button:hover {
+      background-color: darkred;
+    }
 /* Shared Styles */
 
 .merriweather-font {
