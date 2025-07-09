@@ -3,7 +3,12 @@
     padding: 0;
     
 }
-
+main{
+    max-width: 1320px;
+}
+section{
+    margin: 60px 0px;
+}
 /* header styles */
 header{
     background-image:  linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), 
@@ -31,11 +36,35 @@ header{
     font-weight: 800;
 }
 
+/* offer section styles */
+.offer{
+    text-align: center;
+}
+.offer-banner{
+    margin: 48px 0;
+}
+.offer-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    
+}
+.offer-banner-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.offer-banner-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+}
 
+.offer-image{
+  width: 800px;
+  height: 500px;
 
-
-
-
+}
 /* Shared Styles */
 
 .merriweather-font> {
@@ -45,4 +74,11 @@ header{
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
