@@ -205,10 +205,27 @@ header{
     background-position: bottom left;
 }
 
+/* Portfolio Gallery styles */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 48px;
+}
 
-
-
-
+.gallery img{
+    border-radius: 16px;
+}
+.portfolio-sub-title{
+    font-size: 29px;
+    color: #FF0000;
+    font-weight: 500;
+}
+.portfolio-title{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 800;
+}
 
 
 /* Shared Styles */
@@ -227,7 +244,7 @@ header{
 }
 .paragraph-2{
     color: #070211;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .inter-font {
