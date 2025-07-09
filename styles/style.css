@@ -86,7 +86,29 @@ header{
     color: #FFFFFF;
 
 }
+.hero button{
+    margin: 48px 32px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+/* Event Section Styles */
+.event {
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    color: #070211;
+    font-size: 32px;
+    background: linear-gradient(to bottom, rgba(245, 148, 148, 0.6), rgb(248, 4, 0, 0) );   
+    height: 480px;
+    padding: 100px 100px;
+}
 
+.event span{
+    color: rgb(248, 4, 4);
+}
 /* Shared Styles */
 
 .merriweather-font> {
@@ -102,7 +124,7 @@ header{
     font-size: 18px;
 }
 .paragraph-2{
-    color: #07021127;
+    color: #070211;
     font-size: 18px;
 }
 
@@ -111,4 +133,14 @@ header{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.btn-secondary{
+    margin: 48px 32px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #FF0000;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
 }
